@@ -54,7 +54,7 @@ try {
 const APP_NAMESPACE = 'my-newborn-care';
 
 // --- Gemini API Key ---
-const GOOGLE_API_KEY = "AIzaSyBaQADcq3gdSUYh4fvhMPgUkvSkQlk7pDo"; 
+const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
 
 const SYSTEM_PROMPT_TEMPLATE = `
 # 신생아 육아 전문 AI 어시스턴트

@@ -9,12 +9,13 @@ import { getFirestore, doc, setDoc, onSnapshot } from "firebase/firestore";
 // 2. 프로젝트 설정 > 내 앱 > SDK 설정 및 구성 선택
 // 3. 아래 firebaseConfig 객체의 내용을 복사한 값으로 교체하세요.
 const manualFirebaseConfig = {
-  apiKey: "YOUR_API_KEY", // 예: "AIzaSy..."
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.firebasestorage.app",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyCXsndOmvROeaa5WuFmeztuI0ClY1PYPqk",
+  authDomain: "new-born-68b9a.firebaseapp.com",
+  projectId: "new-born-68b9a",
+  storageBucket: "new-born-68b9a.firebasestorage.app",
+  messagingSenderId: "897610528706",
+  appId: "1:897610528706:web:9c0791de640d32d329485b",
+  measurementId: "G-GKKFCZ235H"
 };
 
 // --- Firebase 초기화 (자동 감지 로직 개선) ---
